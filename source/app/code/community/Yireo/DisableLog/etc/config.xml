@@ -13,7 +13,7 @@
 
     <modules>
         <Yireo_DisableLog>
-            <version>0.0.5</version>
+            <version>0.0.6</version>
         </Yireo_DisableLog>
     </modules>
 
@@ -128,6 +128,21 @@
             </controller_action_predispatch>
         </events>
     </adminhtml>
+
+    <frontend>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <log><type>disabled</type></log>
+                </observers>
+            </controller_action_predispatch>
+            <controller_action_postdispatch>
+                <observers>
+                    <log><type>disabled</type></log>
+                </observers>
+            </controller_action_postdispatch>
+        </events>
+    </frontend>
 
     <default>
         <disablelog>
