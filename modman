@@ -1,3 +1,3 @@
 # Modman file
-source/app/code/community/Yireo/DisableLog app/code/community/Yireo/DisableLog
-source/app/etc/modules/Yireo_DisableLog.xml app/etc/modules/
+source/app/code/community/Yireo/DisableLog      app/code/community/Yireo/DisableLog
+source/app/etc/modules/Yireo_DisableLog.xml     app/etc/modules/Yireo_DisableLog.xml
