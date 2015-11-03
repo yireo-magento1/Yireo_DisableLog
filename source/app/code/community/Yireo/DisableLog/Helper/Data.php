@@ -13,15 +13,17 @@
  */
 class Yireo_DisableLog_Helper_Data extends Mage_Core_Helper_Abstract
 {
-    /*
+    /**
      * Helper-method to determine whether this module is enabled or not
      *
-     * @access public
-     * @param null
      * @return bool
      */
     public function enabled()
     {
+        if ((bool)Mage::getStoreConfig('advanced/modules_disable_output/Yireo_DisableLog')) {
+            return false;
+        }
+
         return (bool)Mage::getStoreConfig('disablelog/settings/enabled');
     }
 }

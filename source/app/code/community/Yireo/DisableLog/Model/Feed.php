@@ -9,7 +9,7 @@
  * @link http://www.yireo.com
  */
 
-/*
+/**
  * Feed Model
  */
 class Yireo_DisableLog_Model_Feed extends Mage_AdminNotification_Model_Feed

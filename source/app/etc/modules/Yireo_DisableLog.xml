@@ -15,8 +15,8 @@
             <active>true</active>
             <codePool>community</codePool>
             <depends>
-                <Mage_Core />
-                <Mage_Log />
+                <Mage_Core/>
+                <Mage_Log/>
             </depends>
         </Yireo_DisableLog>
     </modules>
