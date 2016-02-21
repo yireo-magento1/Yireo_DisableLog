@@ -129,21 +129,6 @@
         </events>
     </adminhtml>
 
-    <frontend>
-        <events>
-            <controller_action_predispatch>
-                <observers>
-                    <log><type>disabled</type></log>
-                </observers>
-            </controller_action_predispatch>
-            <controller_action_postdispatch>
-                <observers>
-                    <log><type>disabled</type></log>
-                </observers>
-            </controller_action_postdispatch>
-        </events>
-    </frontend>
-
     <default>
         <disablelog>
             <settings>
