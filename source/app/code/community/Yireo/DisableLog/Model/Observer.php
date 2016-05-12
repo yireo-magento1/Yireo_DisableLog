@@ -23,6 +23,8 @@ class Yireo_DisableLog_Model_Observer extends Mage_Core_Model_Abstract
     public function controllerActionPredispatch($observer)
     {
         // Run the feed
-        Mage::getModel('disablelog/feed')->updateIfAllowed();
+        if (Mage::helper('core')->isModuleEnabled('adminnotification')) {
+            Mage::getModel('disablelog/feed')->updateIfAllowed();
+        }
     }
 }
