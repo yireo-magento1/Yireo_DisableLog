@@ -11,6 +11,8 @@
 
 /**
  * DisableLog observer to various Magento events
+ * 
+ * @deprecated
  */
 class Yireo_DisableLog_Model_Observer extends Mage_Core_Model_Abstract
 {
@@ -18,13 +20,12 @@ class Yireo_DisableLog_Model_Observer extends Mage_Core_Model_Abstract
      * Method fired on the event <controller_action_predispatch>
      *
      * @param Varien_Event_Observer $observer
+     *
      * @return Yireo_DisableLog_Model_Observer
+     * @deprecated 
      */
     public function controllerActionPredispatch($observer)
     {
-        // Run the feed
-        if (Mage::helper('core')->isModuleEnabled('adminnotification')) {
-            Mage::getModel('disablelog/feed')->updateIfAllowed();
-        }
+        return $this;
     }
 }

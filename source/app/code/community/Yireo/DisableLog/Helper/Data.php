@@ -1,6 +1,6 @@
 <?php
 /**
- * Yireo DisableLog for Magento 
+ * Yireo DisableLog for Magento
  *
  * @package     Yireo_DisableLog
  * @author      Yireo (https://www.yireo.com/)
@@ -13,6 +13,17 @@
  */
 class Yireo_DisableLog_Helper_Data extends Mage_Core_Helper_Abstract
 {
+    /** @var Mage_Core_Model_App */
+    protected $app;
+    
+    /**
+     * Yireo_EmailTester_Helper_Data constructor.
+     */
+    public function __construct()
+    {
+        $this->app = Mage::app();
+    }
+    
     /**
      * Helper-method to determine whether this module is enabled or not
      *
@@ -20,10 +31,20 @@ class Yireo_DisableLog_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function enabled()
     {
-        if ((bool)Mage::getStoreConfig('advanced/modules_disable_output/Yireo_DisableLog')) {
+        if ((bool)$this->getStoreConfig('advanced/modules_disable_output/Yireo_DisableLog')) {
             return false;
         }
 
-        return (bool)Mage::getStoreConfig('disablelog/settings/enabled');
+        return (bool)$this->getStoreConfig('disablelog/settings/enabled');
+    }
+
+    /**
+     * @param $value
+     *
+     * @return null|string
+     */
+    public function getStoreConfig($value)
+    {
+        return $this->app->getStore()->getConfig($value);
     }
 }

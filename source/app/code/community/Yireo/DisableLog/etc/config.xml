@@ -13,7 +13,7 @@
 
     <modules>
         <Yireo_DisableLog>
-            <version>0.0.9</version>
+            <version>0.0.10</version>
         </Yireo_DisableLog>
     </modules>
 
@@ -96,6 +96,7 @@
                 </Yireo_DisableLog>
             </modules>
         </translate>
+
         <acl>
             <resources>
                 <admin>
@@ -119,11 +120,11 @@
         <events>
             <controller_action_predispatch>
                 <observers>
-                    <disablelog_controller_action_predispatch>
+                    <disablelog_feed>
                         <type>singleton</type>
-                        <class>Yireo_DisableLog_Model_Observer</class>
+                        <class>Yireo_DisableLog_Observer_Feed</class>
                         <method>controllerActionPredispatch</method>
-                    </disablelog_controller_action_predispatch>
+                    </disablelog_feed>
                 </observers>
             </controller_action_predispatch>
         </events>

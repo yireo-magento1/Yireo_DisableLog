@@ -15,16 +15,47 @@
 class Yireo_DisableLog_Model_Feed extends Mage_AdminNotification_Model_Feed
 {
     /**
+     * Helper name
+     */
+    const HELPER_NAME = 'disablelog';
+
+    /**
      * Return the feed URL
      */
     protected $customFeedUrl = 'https://www.yireo.com/extfeed?format=feed&platform=magento&extension=disablelog';
+
+    /**
+     * @var Mage_Admin_Model_Session
+     */
+    protected $session;
+
+    /**
+     * @var Yireo_DisableLog_Helper_Data
+     */
+    protected $helper;
+
+    /**
+     * @var Mage_Core_Model_Store
+     */
+    protected $store;
+
+    /**
+     * Init model
+     *
+     */
+    protected function _construct()
+    {
+        $this->store = Mage::app()->getStore();
+        $this->session = Mage::getSingleton('admin/session');
+        $this->helper = Mage::helper(self::HELPER_NAME);
+    }
 
     /**
      * Return the feed URL
      *
      * @return string
      */
-    public function getFeedUrl() 
+    public function getFeedUrl()
     {
         return $this->customFeedUrl;
     }
@@ -32,27 +63,28 @@ class Yireo_DisableLog_Model_Feed extends Mage_AdminNotification_Model_Feed
     /**
      * Try to update feed
      *
-     * @return mixed
+     * @return bool
      */
     public function updateIfAllowed()
     {
         // Is this the backend
-        if (Mage::app()->getStore()->isAdmin() == false) {
+        if ($this->store->isAdmin() == false) {
             return false;
         }
 
         // Is the backend-user logged-in
-        if (Mage::getSingleton('admin/session')->isLoggedIn() == false) {
+        if ($this->session->isLoggedIn() == false) {
             return false;
         }
 
         // Is the feed disabled?
-        if((bool)Mage::getStoreConfig('yireo/common/disabled')) {
+        if ((bool)$this->helper->getStoreConfig('yireo/common/disabled')) {
             return false;
         }
 
         // Update the feed
         $this->checkUpdate();
+        return true;
     }
 
     /**
