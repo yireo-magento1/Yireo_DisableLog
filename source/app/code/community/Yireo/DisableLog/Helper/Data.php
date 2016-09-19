@@ -19,9 +19,13 @@ class Yireo_DisableLog_Helper_Data extends Mage_Core_Helper_Abstract
     /**
      * Yireo_EmailTester_Helper_Data constructor.
      */
-    public function __construct()
+    public function __construct($app = null)
     {
-        $this->app = Mage::app();
+        if ($app) {
+            $this->app = $app;
+        } else {
+            $this->app = Mage::app();
+        }
     }
     
     /**
