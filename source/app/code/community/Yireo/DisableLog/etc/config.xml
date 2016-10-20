@@ -56,20 +56,20 @@
             <comodo1>Comodo-Certificates-Spider</comodo1>
             <comodo2>Comodo SSL Checker</comodo2>
             <speedy>Speedy Spider</speedy>
-            <twitter>Twitterbot/0.1</twitter>
+            <twitter>Twitterbot/</twitter>
             <sitespeed>SiteSpeedBot</sitespeed>
-            <zooka>Zookabot/2.1;++http://zookabot.com</zooka>
+            <zooka>Zookabot/</zooka>
             <njuice>NjuiceBot</njuice>
-            <friendfeed>FriendFeedBot/0.1</friendfeed>
+            <friendfeed>FriendFeedBot/</friendfeed>
             <huawei>Huaweisymantecspider</huawei>
-            <docomo>DoCoMo/2.0</docomo>
+            <docomo>DoCoMo/</docomo>
             <msn>msnbot/</msn>
             <worio>woriobot support</worio>
             <archiver>ia_archiver</archiver>
             <passwordthumbs>1PasswordThumbs</passwordthumbs>
             <twingly>Twingly Recon</twingly>
-            <tlsprober>TLSProber/0.1</tlsprober>
-            <postrank>PostRank/2.0 (postrank.com)</postrank>
+            <tlsprober>TLSProber/</tlsprober>
+            <postrank>PostRank/</postrank>
             <jskit1>JS-Kit URL Resolver, http://js-kit.com/</jskit1>
             <dotnetcom>dotnetdotcom.org</dotnetcom>
             <gigabot>Gigabot/</gigabot>
