@@ -64,6 +64,7 @@
             <huawei>Huaweisymantecspider</huawei>
             <docomo>DoCoMo/</docomo>
             <msn>msnbot/</msn>
+            <msnbotmedia>msnbot-media/</msnbotmedia>
             <worio>woriobot support</worio>
             <archiver>ia_archiver</archiver>
             <passwordthumbs>1PasswordThumbs</passwordthumbs>
@@ -85,6 +86,37 @@
             <pycurl>PycURL/</pycurl>
             <voyager>Voyager/</voyager>
             <dowjones>Dow Jones Searchbot</dowjones>
+            <ahrefs>AhrefsBot/</ahrefs>
+            <beslist>BeslistBot/</beslist>
+            <cartdown>CartDown.com</cartdown>
+            <curl>curl/</curl>
+            <daisycon>Daisycon.com/bot</daisycon>
+            <facebookexternalhit>facebookexternalhit/</facebookexternalhit>
+            <googleadsbot>AdsBot-Google</googleadsbot>
+            <googleimageproxy>GoogleImageProxy</googleimageproxy>
+            <googleshoppingquality>Google-Shopping-Quality</googleshoppingquality>
+            <img_cache>IMG CACHE</img_cache>
+            <imgix>imgix/</imgix>
+            <kieskeurig>Kieskeurig</kieskeurig>
+            <klezzer>Klezzer</klezzer>
+            <ltx71>ltx71</ltx71>
+            <megaindex>MegaIndex.ru</megaindex>
+            <nagios>nagios</nagios>
+            <newrelicpinger>NewRelicPinger/</newrelicpinger>
+            <okhttp>okhttp/</okhttp>
+            <openoffice>Apache OpenOffice/</openoffice>
+            <pinterest>Pinterest/</pinterest>
+            <pretzel>pretzel/imagefly</pretzel>
+            <ruby>Ruby</ruby>
+            <semrushbot>SemrushBot/</semrushbot>
+            <seoscanners>seoscanners.net</seoscanners>
+            <swcd>swcd</swcd>
+            <uptimerobot>UptimeRobot/</uptimerobot>
+            <webmeup>BLEXBot/</webmeup>
+            <weserv>ImageFetcher/</weserv>
+            <wiseguys>Vagabondo/</wiseguys>
+            <yandex>Yandex</yandex>
+            <yandex_directfetcher>YaDirectFetcher/</yandex_directfetcher>
         </skip_user_agents>
     </global>
 
