@@ -75,7 +75,10 @@
             <gigabot>Gigabot/</gigabot>
             <search17>Search17Bot</search17>
             <mj12>MJ12bot</mj12>
-            <misc>Bot,Robot,Spider,Crawler</misc>
+            <misc1>Bot</misc1>
+            <misc2>Robot</misc2>
+            <misc3>Spider</misc3>
+            <misc4>Crawler</misc4>
             <discobot>discobot/</discobot>
             <legs80>80legs.com/webcrawler</legs80>
             <kiwistatus>KiwiStatus/</kiwistatus>
