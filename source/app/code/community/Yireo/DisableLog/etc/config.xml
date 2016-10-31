@@ -47,7 +47,7 @@
             <pingdom>Pingdom.com_bot_version</pingdom>
             <hosttracker>HostTracker.com</hosttracker>
             <yahoo>ysearch/slurp</yahoo>
-            <baidu>Baiduspider</baidu>
+            <baidu_spider>Baiduspider</baidu_spider>
             <socialmedia>SocialMedia Bot</socialmedia>
             <exabot>Exabot</exabot>
             <soso>Sosospider+</soso>
@@ -113,9 +113,46 @@
             <uptimerobot>UptimeRobot/</uptimerobot>
             <webmeup>BLEXBot/</webmeup>
             <weserv>ImageFetcher/</weserv>
-            <wiseguys>Vagabondo/</wiseguys>
+            <wiseguys_vagabondo>Vagabondo/</wiseguys_vagabondo>
             <yandex>Yandex</yandex>
             <yandex_directfetcher>YaDirectFetcher/</yandex_directfetcher>
+            <google_apps_script>Google-Apps-Script</google_apps_script>
+            <rogerbot>rogerbot</rogerbot>
+            <twengaqualitybot>TwengaQualityBot</twengaqualitybot>
+            <tineye>TinEye-bot</tineye>
+            <go_1_1_package>Go 1.1 package http</go_1_1_package>
+            <rackspace>Rackspace Monitoring/</rackspace>
+            <cxf>Apache CXF</cxf>
+            <xmlrpc>XMLRPC::Client</xmlrpc>
+            <dotbot>DotBot/</dotbot>
+            <statuscake>StatusCake</statuscake>
+            <webfeedparser>WebFeedParser</webfeedparser>
+            <mediapartners_google>Mediapartners-Google</mediapartners_google>
+            <whatsapp>WhatsApp</whatsapp>
+            <yahoocachesystem_yahoowebserviceclient>YahooCacheSystem; YahooWebServiceClient</yahoocachesystem_yahoowebserviceclient>
+            <test_certificate_info>Test Certificate Info</test_certificate_info>
+            <webcapture>WebCapture</webcapture>
+            <internetseer>InternetSeer.com</internetseer>
+            <findxbot>Findxbot/</findxbot>
+            <http_request2>HTTP_Request2/</http_request2>
+            <apache_httpclient>Apache-HttpClient/</apache_httpclient>
+            <python_urllib>Python-urllib/</python_urllib>
+            <java>Java/</java>
+            <apple_pubsub>Apple-PubSub/</apple_pubsub>
+            <seznambot>SeznamBot/</seznambot>
+            <meanpathbot>meanpathbot/</meanpathbot>
+            <exaleadcloudview>ExaleadCloudView/</exaleadcloudview>
+            <rpt_httpclient>RPT-HTTPClient/</rpt_httpclient>
+            <scrapy>Scrapy/</scrapy>
+            <applebot>Applebot/</applebot>
+            <bingpreview>BingPreview/</bingpreview>
+            <flipboardproxy>FlipboardProxy/</flipboardproxy>
+            <ccbot>CCBot/</ccbot>
+            <baidu_heritrix>heritrix/</baidu_heritrix>
+            <wiseguys_freshbot>Freshbot/</wiseguys_freshbot>
+            <ravencrawler>RavenCrawler/</ravencrawler>
+            <transabacus>TransAbacus/</transabacus>
+            <betabot>betaBot</betabot>
         </skip_user_agents>
     </global>
 
