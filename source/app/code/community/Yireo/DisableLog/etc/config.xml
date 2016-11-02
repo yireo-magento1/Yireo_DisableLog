@@ -41,81 +41,118 @@
         </models>
 
         <skip_user_agents>
+            <ahrefs>AhrefsBot/</ahrefs>
+            <apache_httpclient>Apache-HttpClient/</apache_httpclient>
             <appengine>AppEngine-Google</appengine>
+            <apple_pubsub>Apple-PubSub/</apple_pubsub>
+            <applebot>Applebot/</applebot>
+            <archiver>ia_archiver</archiver>
+            <baidu_heritrix>heritrix/</baidu_heritrix>
+            <baidu_spider>Baiduspider</baidu_spider>
+            <beslist>BeslistBot/</beslist>
+            <betabot>betaBot</betabot>
             <bingbot>bingbot</bingbot>
-            <googlebot>Googlebot</googlebot>
-            <pingdom>Pingdom.com_bot_version</pingdom>
-            <hosttracker>HostTracker.com</hosttracker>
-            <yahoo>ysearch/slurp</yahoo>
-            <baidu>Baiduspider</baidu>
-            <socialmedia>SocialMedia Bot</socialmedia>
-            <exabot>Exabot</exabot>
-            <soso>Sosospider+</soso>
-            <tweetmeme>TweetmemeBot</tweetmeme>
+            <bingpreview>BingPreview/</bingpreview>
+            <cartdown>CartDown.com</cartdown>
+            <ccbot>CCBot/</ccbot>
             <comodo1>Comodo-Certificates-Spider</comodo1>
             <comodo2>Comodo SSL Checker</comodo2>
-            <speedy>Speedy Spider</speedy>
-            <twitter>Twitterbot/</twitter>
-            <sitespeed>SiteSpeedBot</sitespeed>
-            <zooka>Zookabot/</zooka>
-            <njuice>NjuiceBot</njuice>
-            <friendfeed>FriendFeedBot/</friendfeed>
-            <huawei>Huaweisymantecspider</huawei>
+            <curl>curl/</curl>
+            <cxf>Apache CXF</cxf>
+            <daisycon>Daisycon.com/bot</daisycon>
+            <discobot>discobot/</discobot>
             <docomo>DoCoMo/</docomo>
-            <msn>msnbot/</msn>
-            <msnbotmedia>msnbot-media/</msnbotmedia>
-            <worio>woriobot support</worio>
-            <archiver>ia_archiver</archiver>
-            <passwordthumbs>1PasswordThumbs</passwordthumbs>
-            <twingly>Twingly Recon</twingly>
-            <tlsprober>TLSProber/</tlsprober>
-            <postrank>PostRank/</postrank>
-            <jskit1>JS-Kit URL Resolver, http://js-kit.com/</jskit1>
+            <dotbot>DotBot/</dotbot>
             <dotnetcom>dotnetdotcom.org</dotnetcom>
+            <dowjones>Dow Jones Searchbot</dowjones>
+            <dps>PXHOST</dps>
+            <exabot>Exabot</exabot>
+            <exaleadcloudview>ExaleadCloudView/</exaleadcloudview>
+            <facebookexternalhit>facebookexternalhit/</facebookexternalhit>
+            <findxbot>Findxbot/</findxbot>
+            <flipboardproxy>FlipboardProxy/</flipboardproxy>
+            <friendfeed>FriendFeedBot/</friendfeed>
             <gigabot>Gigabot/</gigabot>
-            <search17>Search17Bot</search17>
-            <mj12>MJ12bot</mj12>
+            <go_1_1_package>Go 1.1 package http</go_1_1_package>
+            <google_apps_script>Google-Apps-Script</google_apps_script>
+            <googleadsbot>AdsBot-Google</googleadsbot>
+            <googlebot>Googlebot</googlebot>
+            <googleimageproxy>GoogleImageProxy</googleimageproxy>
+            <googleshoppingquality>Google-Shopping-Quality</googleshoppingquality>
+            <hosttracker>HostTracker.com</hosttracker>
+            <http_request2>HTTP_Request2/</http_request2>
+            <huawei>Huaweisymantecspider</huawei>
+            <img_cache>IMG CACHE</img_cache>
+            <imgix>imgix/</imgix>
+            <internetseer>InternetSeer.com</internetseer>
+            <java>Java/</java>
+            <jskit1>JS-Kit URL Resolver, http://js-kit.com/</jskit1>
+            <kieskeurig>Kieskeurig</kieskeurig>
+            <kiwistatus>KiwiStatus/</kiwistatus>
+            <klezzer>Klezzer</klezzer>
+            <legs80>80legs.com/webcrawler</legs80>
+            <ltx71>ltx71</ltx71>
+            <meanpathbot>meanpathbot/</meanpathbot>
+            <mediapartners_google>Mediapartners-Google</mediapartners_google>
+            <megaindex>MegaIndex.ru</megaindex>
             <misc1>Robot</misc1>
             <misc2>Spider</misc2>
             <misc3>Crawler</misc3>
-            <discobot>discobot/</discobot>
-            <legs80>80legs.com/webcrawler</legs80>
-            <kiwistatus>KiwiStatus/</kiwistatus>
-            <dps>PXHOST</dps>
-            <pycurl>PycURL/</pycurl>
-            <voyager>Voyager/</voyager>
-            <dowjones>Dow Jones Searchbot</dowjones>
-            <ahrefs>AhrefsBot/</ahrefs>
-            <beslist>BeslistBot/</beslist>
-            <cartdown>CartDown.com</cartdown>
-            <curl>curl/</curl>
-            <daisycon>Daisycon.com/bot</daisycon>
-            <facebookexternalhit>facebookexternalhit/</facebookexternalhit>
-            <googleadsbot>AdsBot-Google</googleadsbot>
-            <googleimageproxy>GoogleImageProxy</googleimageproxy>
-            <googleshoppingquality>Google-Shopping-Quality</googleshoppingquality>
-            <img_cache>IMG CACHE</img_cache>
-            <imgix>imgix/</imgix>
-            <kieskeurig>Kieskeurig</kieskeurig>
-            <klezzer>Klezzer</klezzer>
-            <ltx71>ltx71</ltx71>
-            <megaindex>MegaIndex.ru</megaindex>
+            <mj12>MJ12bot</mj12>
+            <msn>msnbot/</msn>
+            <msnbotmedia>msnbot-media/</msnbotmedia>
             <nagios>nagios</nagios>
             <newrelicpinger>NewRelicPinger/</newrelicpinger>
+            <njuice>NjuiceBot</njuice>
             <okhttp>okhttp/</okhttp>
             <openoffice>Apache OpenOffice/</openoffice>
+            <passwordthumbs>1PasswordThumbs</passwordthumbs>
+            <pingdom>Pingdom.com_bot_version</pingdom>
             <pinterest>Pinterest/</pinterest>
+            <postrank>PostRank/</postrank>
             <pretzel>pretzel/imagefly</pretzel>
+            <pycurl>PycURL/</pycurl>
+            <python_urllib>Python-urllib/</python_urllib>
+            <rackspace>Rackspace Monitoring/</rackspace>
+            <ravencrawler>RavenCrawler/</ravencrawler>
+            <rogerbot>rogerbot</rogerbot>
+            <rpt_httpclient>RPT-HTTPClient/</rpt_httpclient>
             <ruby>Ruby</ruby>
+            <scrapy>Scrapy/</scrapy>
+            <search17>Search17Bot</search17>
             <semrushbot>SemrushBot/</semrushbot>
             <seoscanners>seoscanners.net</seoscanners>
+            <seznambot>SeznamBot/</seznambot>
+            <sitespeed>SiteSpeedBot</sitespeed>
+            <socialmedia>SocialMedia Bot</socialmedia>
+            <soso>Sosospider+</soso>
+            <speedy>Speedy Spider</speedy>
+            <statuscake>StatusCake</statuscake>
             <swcd>swcd</swcd>
+            <test_certificate_info>Test Certificate Info</test_certificate_info>
+            <tineye>TinEye-bot</tineye>
+            <tlsprober>TLSProber/</tlsprober>
+            <transabacus>TransAbacus/</transabacus>
+            <tweetmeme>TweetmemeBot</tweetmeme>
+            <twengaqualitybot>TwengaQualityBot</twengaqualitybot>
+            <twingly>Twingly Recon</twingly>
+            <twitter>Twitterbot/</twitter>
             <uptimerobot>UptimeRobot/</uptimerobot>
+            <voyager>Voyager/</voyager>
+            <webcapture>WebCapture</webcapture>
+            <webfeedparser>WebFeedParser</webfeedparser>
             <webmeup>BLEXBot/</webmeup>
             <weserv>ImageFetcher/</weserv>
-            <wiseguys>Vagabondo/</wiseguys>
+            <whatsapp>WhatsApp</whatsapp>
+            <wiseguys_freshbot>Freshbot/</wiseguys_freshbot>
+            <wiseguys_vagabondo>Vagabondo/</wiseguys_vagabondo>
+            <worio>woriobot support</worio>
+            <xmlrpc>XMLRPC::Client</xmlrpc>
+            <yahoo>ysearch/slurp</yahoo>
+            <yahoocachesystem_yahoowebserviceclient>YahooCacheSystem; YahooWebServiceClient</yahoocachesystem_yahoowebserviceclient>
             <yandex>Yandex</yandex>
             <yandex_directfetcher>YaDirectFetcher/</yandex_directfetcher>
+            <zooka>Zookabot/</zooka>
         </skip_user_agents>
     </global>
 
